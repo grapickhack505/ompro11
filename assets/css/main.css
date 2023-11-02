@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
+  --color-primary: #2b4266;
   --color-secondary: #f85a40;
 }
 
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #00b6a1;
+  color: #0c1269;
   text-decoration: none;
 }
 
@@ -276,7 +276,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: #000000;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -328,8 +328,8 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  height: 90px;
-  background-color: var(--color-primary);
+  height: 70px;
+  background-color: rgb(200, 222, 223);
 }
 
 .header.sticked {
@@ -342,21 +342,21 @@ section {
 }
 
 .header .logo img {
-  max-height: 60px;
-  margin-right: 6px;
+  max-height: 50px;
+  margin-right: 50px;
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 16px;
   margin: 0;
   font-weight: 600;
   letter-spacing: 0.8px;
-  color: #fff;
+  color: #050d31;
   font-family: var(--font-primary);
 }
 
 .header .logo h1 span {
-  color: #f96f59;
+  color: #f9599c;
 }
 
 .sticked-header-offset {
@@ -401,7 +401,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.6);
+    color: #000;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -438,7 +438,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #116415;
   }
 
   .navbar .dropdown ul {
@@ -851,7 +851,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action .container {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") center center;
+  background: #f0eeee;
   background-size: cover;
   padding: 100px 60px;
   border-radius: 15px;
@@ -1197,13 +1197,17 @@ section {
   position: relative;
   z-index: 1;
 }
+.portfolio .portfolio-wrap {
+  width: calc(22.22% 100px); /* Ukuran yang sama untuk setiap kolom (3 kolom per baris) */
+  margin-bottom: 20px;
+}
 
 .portfolio .portfolio-wrap .portfolio-info {
   padding: 25px 20px;
   background-color: #fff;
   position: relative;
-  border-top: 1px solid #f3f3f3;
-  z-index: 2;
+  border-top: 0px solid #f3f3f3;
+  z-index: 0;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
@@ -1752,7 +1756,7 @@ section {
   background-color: var(--color-primary);
   height: 100%;
   padding: 20px;
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px 10px;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
 }
 
@@ -1919,7 +1923,7 @@ section {
 }
 
 .hero h2 {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   margin-bottom: 20px;
   color: #fff;
@@ -2001,7 +2005,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background: #4c9194;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
